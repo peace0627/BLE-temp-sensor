@@ -8,7 +8,7 @@
 #include <WiFi.h>
 
 
-#define ONE_WIRE_BUS 4  // DS18B20 數據線連接到 GPIO 4
+#define ONE_WIRE_BUS 0  // DS18B20 數據線連接到 GPIO 4
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
